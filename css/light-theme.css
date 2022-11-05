@@ -1,12 +1,6 @@
 @import "./reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-/* font-family: 'Poppins', sans-serif; */
-
-/* * {
-  box-sizing: border-box;
-} */
-
 body {
   font-family: 'Poppins', sans-serif;
   background: #E9EBEC;
@@ -155,7 +149,7 @@ body {
 }
 
 .profile-btn-download:hover {
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .profile-btn-download img {
@@ -171,7 +165,7 @@ body {
 }
 
 .profile-btn-contact:hover {
-  background-color: #FBD144;
+  /* background-color: #FBD144; */
 }
 
 .profile-btn-contact p {
