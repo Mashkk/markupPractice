@@ -1,0 +1,258 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #E9EBEC;
+
+}
+
+.none {
+  display: none !important;
+}
+
+.header {
+  margin-top: 33px;
+  margin-bottom: 65px;
+}
+
+.theme-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.theme-btn:active {
+  width: 78px;
+  height: 78px;
+  margin-bottom: 67px;
+}
+
+.container {
+  max-width: 790px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  max-width: 654px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.profile-info {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.profile-img {
+  width: 215px;
+  height: 215px;
+  background-image: url(./../img/avatar-bg.svg);
+}
+.profile-img-avatar {
+  display: block; 
+  margin: auto;
+  margin-top: 11px;
+  border-radius: 50%;
+}
+
+.profile-info-personal {
+  margin-left: 40px;
+}
+
+.profile-info-personal h1 {
+  margin-top: 30px;
+
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 69px;
+  color: #3D3D3D;
+}
+
+.profile-info-personal p {
+  margin-top: 3px;
+
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #575757;
+}
+
+.profile-social {
+  display: flex;
+  column-gap: 26px;
+  margin-top: 12px;
+}
+
+.profile-facts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 31px;
+  gap: 90px;
+}
+
+.profile-fact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  color: #575757;
+}
+
+.profile-fact h2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.profile-btn {
+  display: flex;
+  width: 618px;
+  /* height: 86px; */
+  margin-top: 47px;
+  margin-bottom: 86px;
+  gap: 38px;
+}
+
+.profile-btn a {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+
+  text-align: center;
+  letter-spacing: -0.531474px;
+  color: #3D3D3D;
+}
+
+.profile-btn-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 15px;
+  width: 290px;
+  height: 80px;
+  background-color: #FBD144;
+}
+
+.profile-btn-download:hover {
+  background-color: #fff;
+}
+
+.profile-btn-download img {
+  width: 26.98px;
+  height: 24px;
+}
+
+.profile-btn-contact {
+  border-radius: 10px;
+  width: 290px;
+  height: 80px;
+  background-color: #fff;
+}
+
+.profile-btn-contact:hover {
+  background-color: #FBD144;
+}
+
+.profile-btn-contact p {
+  padding-top: 24px;
+}
+
+.tabs-btn {
+  height: 110px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  margin-bottom: 76px;
+}
+
+.tabs-btn-portfolio {
+  width: 351.45px;
+  height: 80px;
+  margin: 15px 5px 15px 24px;
+  background-color: #D7D7D7;
+  border-radius: 10px;
+}
+
+.tabs-btn-portfolio:hover {
+  background-color: #9c9c9c;
+}
+
+.tabs-btn-portfolio:active, .tabs-btn-skills:active {
+  height: 77px;
+}
+
+.tabs-btn-skills {
+  width: 351.45px;
+  height: 80px;
+  margin: 15px 14px 15px 5px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.tabs-btn-skills:hover {
+  background-color: #9c9c9c;
+}
+
+.tabs-btn-text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: -0.500211px;
+  color: #19191B;
+}
+
+.tabs-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 52px;
+  
+}
+
+.tabs-content img {
+  border-radius: 15px;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-bottom: 48px;
+  transition: transform 0.2s ease-in;
+}
+
+.tabs-content img:hover {
+  transform: translateY(-10px);
+}
+
+footer {
+  display: block;
+  margin-top: 39px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+footer p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #575757;
+}
