@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> //IE уже вроде сдох, думаю вторая часть строки не нужна больше//
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="./css/light-theme.css">
-  <link rel="stylesheet" href="./css/media.css"> 
+  <link rel="stylesheet" href="./css/media.css"> //красавчик, что сразу развел по разным файлам тему и общие стили, но обычно если подключаемых файлов css несколько их подключают в отдельном файле, а тут ставят 1 в котором они собраны//
 </head>
 <body>
   <header class="header">
@@ -22,8 +22,8 @@
             <img class="profile-img-avatar" src="./img/avatar.jpg" alt="Avatar">
           </div>
           <div class="profile-info-personal">
-            <h1>Aleksei Kozlov</h1>
-            <p>Beginning Software Engineer</p>
+            <h1>Aleksei Kozlov</h1> //заголовок h1  должен отражать суть страницы. суть страницы не леша козлов, это визитка, резюме и тд. h1 часто делают скрытым, но дают ему корректный нейминг. h2 тут скорее beginer softwer ingeneer, а вот имя скорее span//
+            <p>Beginning Software Engineer</p> //в параграф идут крупные текстовые блоки, это спан или h2//
             <div class="profile-social">
               <a href="https://github.com/Ky34"><img src="./img/icons/social-icons/github.svg" alt="Github"></a>
               <a href="https://twitter.com/lKy34l"><img src="./img/icons/social-icons/twitter.svg" alt="Twitter"></a>
@@ -33,7 +33,7 @@
           </div>
         </div>
         <div class="profile-facts">
-          <div class="profile-fact"><h2>5</h2>Years truck driving experience</div>
+          <div class="profile-fact"><h2>5</h2>Years truck driving experience</div>//не путай семантику разметки и семантику в обычной граматике. прочти когда используется тег h тут должны быть span//
           <div class="profile-fact"><h2>300+</h2>Completed deliveries</div>
           <div class="profile-fact"><h2>100+</h2>Satisfied customers</div>
         </div>
@@ -42,20 +42,20 @@
             <p>Download CV</p><img src="./img/icons/arrow.svg" alt="Arrow">
           </a>
           <a class="profile-btn-contact" href="mailto:ky34.aleksei@gmail.com">
-            <p>Contact me</p>
+            <p>Contact me</p> //это тоже спан//
           </a>
         </div>
       </section>      
-      <section class="tabs-btn">
+      <section class="tabs-btn"> // в секшоне надо обьявить его заголовок h2 отражающий суть блока//
         <button class="tabs-btn-portfolio tabs-btn-text">
-          <p>Portfolio</p>
+          <p>Portfolio</p> //тут тоже спан//
         </button>
         <button class="tabs-btn-skills tabs-btn-text">
           <p>Skills</p>
         </button>
       </section>
-      <section class="tabs-content">
-        <a href="#!"><img src="./img/tabs/tab-01.jpg" alt="Tab"></a>
+      <section class="tabs-content"> //заголовок//
+        <a href="#!"><img src="./img/tabs/tab-01.jpg" alt="Tab"></a> // в альт записывается название картинки, на случай если она не отобразится или для хорошего парсинга поисками картинок//
         <a href="#!"><img src="./img/tabs/tab-02.jpg" alt="Tab"></a>
         <a href="https://github.com/Ky34/portfolioPractice1"><img src="./img/tabs/tab-03.jpg" alt="Tab"></a>
         <a href="https://github.com/Ky34/markupPractice1"><img src="./img/tabs/tab-04.jpg" alt="Tab"></a>
@@ -65,7 +65,7 @@
     </div>
   </main>
   <footer>
-    <p>© Aleksei Kozlov. 2022 All rigths reserved</p>
+    <p>© Aleksei Kozlov. 2022 All rigths reserved</p> //тоже спан//
   </footer>
 </body>
 </html>
