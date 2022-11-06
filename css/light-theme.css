@@ -8,18 +8,18 @@ body {
 }
 
 .none {
-  display: none !important;
+  display: none !important; *руки отрезать сразу за такое, у тебя сайт на ладони помещется, ты уже импортанты закидываешь туда*
 }
 
 .header {
   margin-top: 33px;
-  margin-bottom: 65px;
+  margin-bottom: 65px; *пиши-сокращай смотри укороченную запись этих свойст в 1 строку*
 }
 
 .theme-btn {
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; *margin: 0 auto;*
 }
 
 .theme-btn:active {
@@ -30,9 +30,9 @@ body {
 
 .container {
   max-width: 790px;
-  margin-left: auto;
+  margin-left: auto; *margin: 0 auto; зачем тебе на 1 элементе и маргин и паддинг? что за извращение, задай сразу нужную ширину контайнеру*
   margin-right: auto;
-  padding-left: 15px;
+  padding-left: 15px; *padding: 0 15px;*
   padding-right: 15px;
 }
 .profile {
@@ -40,7 +40,7 @@ body {
   flex-direction: column;
   max-width: 654px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; *тоже самое нафига делать еще и паддинг? регулируй шириной*
   padding-left: 10px;
   padding-right: 10px;
 }
